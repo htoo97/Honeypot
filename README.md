@@ -46,7 +46,7 @@ Time spent: **X** hours spent in total
     3. Select a type of honeypot from the drop down menu (e.g. "Ubuntu 12.04 Dionaea").
     4. Copy the deployment command.
     5. Login to a honeypot server and run this command as root.
-  * **Integration with Splunk and ArcSight**:
+  * **Integration with Splunk and ArcSight**: Splunk will log the events as key/value pairs to /var/log/mhn-splunk.log. This log should be monitored by the SplunkUniveralForwarder. Arcsight will log the events as CEF to /var/log/mhn-arcsight.log
    ```$ cd /opt/mhn/scripts
       $ sudo ./install_hpfeeds-logger-splunk.sh
       $ sudo ./install_hpfeeds-logger-arcsight.sh
