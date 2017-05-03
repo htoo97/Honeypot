@@ -6,7 +6,8 @@ Time spent: **X** hours spent in total
 
 ### Required: Overview & Setup
 
-- [ ] A basic writeup (250-500 words) on the `README.md` desribing the overall approach, resources/tools used, findings
+- [x] A basic writeup (250-500 words) on the `README.md` desribing the overall approach, resources/tools used, findings
+	- Intrusion Detection Software: Snort, Kippo, Conpot, and Dionaea.
 - [ ] A specific, reproducible honeypot setup, ideally automated. There are several possibilities for this:
 	- A Vagrantfile or Dockerfile which provisions the honeypot as a VM or container
 	- A bash script that installs and configures the honeypot for a specific OS
@@ -22,7 +23,7 @@ Time spent: **X** hours spent in total
 - Honeypot
 	- [ ] HTTPS enabled (self-signed SSL cert)
 	- [ ] A web application with both authenticated and unauthenticated footprint
-	- [ ] Database back-end
+	- [x] Database back-end
 	- [ ] Custom exploits (example: intentionally added SQLI vulnerabilities)
 	- [ ] Custom traps (example: modified version of known vulnerability to prevent full exploitation)
 	- [ ] Custom IDS alert (example: email sent when footprinting detected)
