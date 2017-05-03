@@ -22,7 +22,35 @@ Time spent: **X** hours spent in total
 * It also allows systems administrators to:
   * View a list of new attacks
   * Manage snort rules: enable, disable, download
-
+* **Installation**: 
+  * Install Git
+   ```# on Debian or Ubuntu
+      $ sudo apt-get install git -y
+    
+      # on Centos or RHEL
+      $ sudo yum install -y git
+   ```
+  * Install MHN
+   ```$ cd /opt/
+      $ sudo git clone https://github.com/threatstream/mhn.git
+      $ cd mhn/
+      $ sudo ./install.sh
+   ```
+  * After installation, a number of services should be running. To check:
+   ```
+      $ sudo supervisorctl status 
+   ```
+  * **Deploying honeypots with MHN**:
+    1. Login to your MHN server web app.
+    2. Click the "Deploy" link in the upper left hand corner.
+    3. Select a type of honeypot from the drop down menu (e.g. "Ubuntu 12.04 Dionaea").
+    4. Copy the deployment command.
+    5. Login to a honeypot server and run this command as root.
+  * **Integration with Splunk and ArcSight**:
+   ```$ cd /opt/mhn/scripts
+      $ sudo ./install_hpfeeds-logger-splunk.sh
+      $ sudo ./install_hpfeeds-logger-arcsight.sh
+   ```
 
 ### Required: Demonstration
 
