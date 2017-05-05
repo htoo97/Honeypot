@@ -1,6 +1,6 @@
 # Project 10 - Honeypot
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 > Objective: Setup a honeypot and provide a working demonstration of its features.
 
@@ -71,6 +71,7 @@ Time spent: **X** hours spent in total
 	- [ ] Additional attack demos/writeups
 	- [ ] Captured malicious payload
 	- [ ] Enhanced logging of exploit post-exploit activity (example: attacker-initiated commands captured and logged)
+<img src='http://i.imgur.com/GTHl2Bu.gif' title='Nmap Demo' width='' alt='Nmap demo' />
 
 ## LICENSE
 
