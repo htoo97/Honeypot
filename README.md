@@ -71,7 +71,7 @@ Time spent: **7** hours spent in total
 	- [ ] Additional attack demos/writeups
 	- [ ] Captured malicious payload
 	- [ ] Enhanced logging of exploit post-exploit activity (example: attacker-initiated commands captured and logged)
-<img src='http://i.imgur.com/GTHl2Bu.gif' title='Nmap Demo' width='' alt='Nmap demo' />
+<img src='https://github.com/htoo97/Honeypot/blob/master/mhn.gif' title='Nmap Demo' width='' alt='Nmap demo' />
 
 ## LICENSE
 
