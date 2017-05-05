@@ -55,14 +55,16 @@ Time spent: **7** hours spent in total
 ### Required: Demonstration
 
 - [x] A basic writeup of the attack (what offensive tools were used, what specifically was detected by the honeypot)
+  * Nmap
 - [x] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
 - [x] A screen-cap of the attack being conducted
-    
+<img src='https://github.com/htoo97/Honeypot/blob/master/mhn.gif' title='Nmap Demo' width='' alt='Nmap demo' />
+
 ### Optional: Features
 - Honeypot
 	- [ ] HTTPS enabled (self-signed SSL cert)
 	- [ ] A web application with both authenticated and unauthenticated footprint
-	- [x] Database back-end
+	- [ ] Database back-end
 	- [ ] Custom exploits (example: intentionally added SQLI vulnerabilities)
 	- [ ] Custom traps (example: modified version of known vulnerability to prevent full exploitation)
 	- [ ] Custom IDS alert (example: email sent when footprinting detected)
@@ -71,7 +73,6 @@ Time spent: **7** hours spent in total
 	- [ ] Additional attack demos/writeups
 	- [ ] Captured malicious payload
 	- [ ] Enhanced logging of exploit post-exploit activity (example: attacker-initiated commands captured and logged)
-<img src='https://github.com/htoo97/Honeypot/blob/master/mhn.gif' title='Nmap Demo' width='' alt='Nmap demo' />
 
 ## LICENSE
 
